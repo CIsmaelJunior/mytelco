@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "name": "Pass Internet 5GB",
+    "description": "Naviguez sans limite avec 5 Go de data",
+    "activationDate": "2025-09-01T00:00:00.000Z",
+    "expirationDate": "2025-09-15T23:59:59.000Z",
+    "icon": "assets/icons/Wifi.svg",
+    "status": "active",
+    "price": 3000.0,
+    "validityDays": 15
+  },
+  {
+    "id": "2",
+    "name": "Forfait Complet",
+    "description": "Tout inclus pour votre usage quotidien",
+    "activationDate": "2025-08-05T00:00:00.000Z",
+    "expirationDate": "2025-09-08T23:59:59.000Z",
+    "icon": "assets/icons/Pass.svg",
+    "status": "active",
+    "price": 25000.0,
+    "validityDays": 30
+  },
+  {
+    "id": "3",
+    "name": "Pass Appels Illimités",
+    "description": "Appelez autant que vous voulez",
+    "activationDate": "2025-09-10T00:00:00.000Z",
+    "expirationDate": "2025-09-17T23:59:59.000Z",
+    "icon": "assets/icons/Appel.svg",
+    "status": "active",
+    "price": 5000.0,
+    "validityDays": 7
+  }
+]

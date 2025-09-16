@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Pass Internet 5GB",
+    "description": "Naviguez sans limite avec 5 Go de data",
+    "price": 3000.0,
+    "validityDays": 15,
+    "icon": "assets/icons/Wifi.svg",
+    "features": ["5GB de data", "4G/5G inclus", "Valable 30 jours"],
+    "isPopular": false,
+    "type": "internet"
+  },
+  {
+    "id": "2",
+    "name": "Pass Internet 10GB",
+    "description": "Naviguez sans limites avec 10GB de data",
+    "price": 15000.0,
+    "validityDays": 30,
+    "icon": "assets/icons/Wifi +.svg",
+    "features": ["10GB de data", "2h d'appels", "1000 SMS"],
+    "isPopular": true,
+    "type": "mixed"
+  },
+  {
+    "id": "3",
+    "name": "Pass Appels Illimités",
+    "description": "Appelez autant que vous voulez",
+    "price": 5000.0,
+    "validityDays": 7,
+    "icon": "assets/icons/Appel.svg",
+    "features": ["Appels illimités", "Tous réseaux", "Valable 7 jours"],
+    "isPopular": false,
+    "type": "voice"
+  },
+  {
+    "id": "4",
+    "name": "Forfait Complet",
+    "description": "Tout inclus pour votre usage quotidien",
+    "price": 25000.0,
+    "validityDays": 30,
+    "icon": "assets/icons/Pass.svg",
+    "features": ["20GB de data", "5h d'appels", "2000 SMS"],
+    "isPopular": false,
+    "type": "mixed"
+  },
+  {
+    "id": "5",
+    "name": "Pass SMS Illimités",
+    "description": "Envoyez autant de SMS que vous voulez",
+    "price": 2000.0,
+    "validityDays": 3,
+    "icon": "assets/icons/sms.svg",
+    "features": ["SMS illimités", "Tous réseaux", "Valable 3 jours"],
+    "isPopular": false,
+    "type": "voice"
+  }
+]
