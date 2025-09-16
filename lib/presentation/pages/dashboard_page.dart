@@ -74,7 +74,11 @@ class _DashboardPageState extends State<DashboardPage> {
 
           return Column(
             children: [
-              _buildUserProfile(user),
+              // Section profil utilisateur qui s'étend jusqu'en haut
+              Container(
+                color: Colors.white,
+                child: _buildUserProfile(user),
+              ),
               Expanded(
                 child: SingleChildScrollView(
                   padding: const EdgeInsets.all(AppConstants.paddingMedium),
@@ -99,9 +103,9 @@ class _DashboardPageState extends State<DashboardPage> {
   Widget _buildUserProfile(user) {
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.fromLTRB(
+      padding: EdgeInsets.fromLTRB(
         AppConstants.paddingLarge,
-        AppConstants.paddingLarge,
+        MediaQuery.of(context).padding.top + AppConstants.paddingLarge,
         AppConstants.paddingLarge,
         AppConstants.paddingLarge,
       ),
