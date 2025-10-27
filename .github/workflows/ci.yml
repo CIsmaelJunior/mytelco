@@ -61,7 +61,7 @@ jobs:
       run: flutter build apk --release
       
     - name: Upload APK
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: app-release-apk
         path: build/app/outputs/flutter-apk/app-release.apk
@@ -91,7 +91,7 @@ jobs:
       run: flutter build ios --release --no-codesign
       
     - name: Upload iOS build
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: ios-build
         path: build/ios/
@@ -121,7 +121,7 @@ jobs:
       run: flutter build macos --release
       
     - name: Upload macOS build
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: macos-build
         path: build/macos/Build/Products/Release/
@@ -151,7 +151,7 @@ jobs:
       run: flutter build web --release
       
     - name: Upload Web build
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: web-build
         path: build/web/
